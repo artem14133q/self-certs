@@ -16,4 +16,4 @@ Self sign certificate creation tools
 > ./create_domain_certs.sh <domain.name>
 ```
 
-## 4. Make your certificate trusted (<domain.name>.crt)
+## 4. Make your certificate is trusted (<domain.name>.crt)
