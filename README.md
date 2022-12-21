@@ -8,12 +8,12 @@ Self sign certificate creation tools
 
 ## 2. Allow traget domain
 ```zsh
-> ./allow_domain.sh domain.name
+> ./allow_domain.sh <domain.name>
 ```
 
 ## 3. Create certs for domain
 ```zsh
-> ./create_domain_certs.sh domain.name
+> ./create_domain_certs.sh <domain.name>
 ```
 
-## 4. Make your certificate trusted
+## 4. Make your certificate trusted (<domain.name>.crt)
