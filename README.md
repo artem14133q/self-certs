@@ -17,3 +17,18 @@ Self sign certificate creation tools
 ```
 
 ## 4. Make your certificate is trusted (<domain.name>.crt)
+
+### Linux:
+```zsh
+$ sudo mv <domain.name>.crt /usr/share/ca-certificate/
+$ cd /usr/share/ca-certificate
+$ sudo chmod 644 <domain.name>.crt
+$ sudo dpkg-reconfigure ca-certificates
+$ sudo update-ca-certificates
+```
+
+### MacOs:
+Import your cert in *KeyChain* app and make it is trusted.
+
+### Windows:
+Open cert like a programm.
